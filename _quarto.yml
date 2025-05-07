@@ -4,6 +4,6 @@ project:
   render:
     - "*.qmd"                 # qué archivos compila Quarto
   resources:                  # copia tal cual el board al sitio
-    - demo_pins/**            # ajuste el nombre de la carpeta si cambió
+    - pins/**            # ajuste el nombre de la carpeta si cambió
   preview:
     port: 4200
