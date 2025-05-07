@@ -3,4 +3,5 @@ project:
   output-dir: docs
   resources:
     - pins/**
+    - .nojekyll
 
