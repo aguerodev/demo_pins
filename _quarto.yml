@@ -1,7 +1,9 @@
 project:
   type: website
+  output-dir: docs            # destino de la web (GitHub Pages lee /docs)
   render:
-    - "*.qmd"
-  output-dir: docs
+    - "*.qmd"                 # qué archivos compila Quarto
+  resources:                  # copia tal cual el board al sitio
+    - demo_pins/**            # ajuste el nombre de la carpeta si cambió
   preview:
     port: 4200
