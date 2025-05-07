@@ -1,0 +1,7 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+  output-dir: docs
+  preview:
+    port: 4200
